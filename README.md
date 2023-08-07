@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+Sure, here's a sample README file for your project based on the provided information:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+# Tooltip Button Generator
 
-In the project directory, you can run:
+This repository contains a code implementation for a tooltip button generator based on a provided Figma design. The main focus of the project was to create the tooltip functionality without using any external libraries. The code is implemented with inline CSS and has been deployed on Netlify for easy access.
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Introduction](#introduction)
+- [Demo](#demo)
+- [Features](#features)
+- [Usage](#usage)
+- [Deployment](#deployment)
+- [Figma Design](#figma-design)
+- [Contributing](#contributing)
+- [License](#license)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Introduction
 
-### `npm test`
+The Tooltip Button Generator is designed to allow users to create and customize tooltips for buttons using a form-based interface. Users can specify various properties for the tooltip, including target element, tooltip text, text size, padding, text color, background color, corner radius, tooltip width, arrow width, and arrow height.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+When all the properties are selected by the user, the tooltip text will be displayed over the buttons when they are hovered upon. Additionally, the color of the arrow changes dynamically with the background color of the tooltip text.
 
-### `npm run build`
+## Demo
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Check out the live demo of the Tooltip Button Generator: [Live Demo](https://divyanshisahaniplotlineassignment.netlify.app/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Customizable tooltip properties.
+- Real-time preview of tooltip on button hover.
+- Responsive design for mobile screens.
 
-### `npm run eject`
+## Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Open the provided Figma design file.
+2. Fill out the form with the desired tooltip properties:
+   - Target Element: Select the button where you want to display the tooltip text.
+   - Tooltip Text: Enter the text that you want to display in the tooltip.
+   - Text Size: Adjust the font size of the tooltip text.
+   - Padding: Set the padding around the tooltip text.
+   - Text Color: Choose the color of the tooltip text.
+   - Background Color: Select the background color of the tooltip.
+   - Corner Radius: Adjust the roundness of the tooltip corners.
+   - Tooltip Width: Set the width of the tooltip.
+   - Arrow Width: Adjust the width of the arrow on the tooltip.
+   - Arrow Height: Set the height of the arrow on the tooltip.
+3. As you fill out the form, the tooltip will update in real-time in the Figma design preview.
+4. Once you are satisfied with the tooltip design, you can see the output in the mobile screen where buttons one through five are present.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Deployment
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The project has been deployed on Netlify for easy access. You can access the live demo here: [Live Demo](https://divyanshisahaniplotlineassignment.netlify.app/)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Figma Design
 
-## Learn More
+The Figma design file contains the form-based structure for creating and customizing tooltips. You can find the Figma design file [here](https://www.figma.com/file/4R3kMsVcgfMnyUInM9E6OH/Plotline-Frontend-Assignment?type=design&node-id=0-1&mode=design).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
