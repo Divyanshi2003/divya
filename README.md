@@ -14,8 +14,7 @@ This repository contains a code implementation for a tooltip button generator ba
 - [Usage](#usage)
 - [Deployment](#deployment)
 - [Figma Design](#figma-design)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Introduction
 
